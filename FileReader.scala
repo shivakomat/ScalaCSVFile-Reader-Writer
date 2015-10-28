@@ -28,7 +28,7 @@ object CSVFileReader{
 
 object TestCSVReader extends App{
   
-  val rowSource = CSVFileReader("/Users/Komatreddy/Documents/workspace/Garner/testData/materials.csv",true)
+  val rowSource = CSVFileReader("sample.csv",true)
   
   while(rowSource.hasNext){
     val row = rowSource.next
